@@ -1,0 +1,46 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+nav{
+    background-color: rgb(165, 165, 165);
+    padding: 10px;
+}
+nav img{
+    height: 30px;
+}
+nav a{
+    color: rgb(231, 229, 229);
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+nav a:hover{
+    font-weight: bold;
+    color: rgb(204, 204, 204);
+    background-color: rgb(82, 80, 80);
+    border-radius: 5px;
+    padding: 10px;
+}
+/* nav a:visited{
+    color: white;
+} */
+a:active{
+    color: aqua;
+}
+
+h1{
+    background-color: bisque;
+    color: white;
+    text-align: center;
+    height: 620px;
+    text-shadow: 10px;
+    text-size-adjust: 30px;
+}
